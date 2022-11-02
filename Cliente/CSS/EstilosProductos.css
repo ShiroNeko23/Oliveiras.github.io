@@ -1,0 +1,110 @@
+#contendortabla{
+    position: relative;
+    left: 60px;
+}
+#btn1{
+    position: relative;
+    left: 33%;
+    top: -52%;
+}
+
+.frm1{
+    position: relative;
+    width: 70%;
+    left: 0%;
+}
+
+.dvfrm{
+  position: relative;
+  height:-30%;
+}
+#app{
+  position: relative;
+  top: -19.45%;
+  left: 33.5%;
+}
+#apm{
+  position: relative;
+  top: -39%;
+  left: 68%;
+}
+#divcor{
+  position: relative;
+  top: -34%;
+}
+#tel{
+  position: relative;
+  top: -33.5%;
+}
+#iden{
+  position: relative;
+  top: -55.1%;
+  left: 50%;
+}
+#selid{
+  position: relative;
+  top: -53.9%;
+}
+#myInput {
+    background-image: url('shearch.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+.tbcliente{
+    position: relative;
+    width: 100%;
+    
+}
+.cli{
+    width: 60%;
+}
+.table-wrapper {
+    width: 100%;
+    height: 200px; /* Altura de ejemplo */
+  }
+ tbody{
+    position: absolute;
+    overflow: scroll;
+    height: 150px;
+    width: 150%;
+  }
+.correo{
+  word-break: break-all;
+}
+  .table-wrapper table {
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  
+  .table-wrapper table thead {
+    position: -webkit-sticky; /* Safari... */
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .table-wrapper tr {
+    width: 100%;
+    table-layout: fixed;
+    display: inline-table;
+}
+.table-wrapper thead tr{
+    width: 148%;
+}
+  .table-wrapper table thead th,
+  .table-wrapper table tbody td {
+    border: none;
+    background-color: #FFF;
+  }
+
+  .table-fixed tbody{
+    height: 400px;
+    overflow-y: auto;
+    width: 100%;
+
+  }
+

@@ -1,0 +1,77 @@
+.well {
+    background: none;
+    height: 60px;
+}
+
+#myInput {
+    background-image: url('shearch.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  .vartb{
+    position: absolute;
+    width: 70%;
+    height: 500px;
+    left: 40%;
+    top: 120px;
+  }
+  .frm2{
+    position: relative;
+    top: 75px;
+  }
+  .table-fixed tbody{
+    height: 400px;
+    overflow-y: auto;
+    width: 50%;
+
+  }
+  .table-wrapper {
+    width: 100%;
+    height: 200px; /* Altura de ejemplo */
+  }
+
+  .cabeza1{
+    position: absolute;
+    width:155px;
+    left: 0%;
+  }
+.correo{
+  word-break: break-all;
+}
+  .table-wrapper table {
+    border-collapse: separate;
+    border-spacing: 0;
+  }
+  
+  .table-wrapper table thead {
+    position: -webkit-sticky; /* Safari... */
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .table-wrapper tr {
+    width: 50%;
+    table-layout: fixed;
+    display: inline-table;
+}
+.table-wrapper thead tr{
+    width: 100%;
+}
+  .table-wrapper table thead th,
+  .table-wrapper table tbody td {
+    border: none;
+    background-color: #FFF;
+  }
+  .table-fixed tbody{
+    overflow-y: auto;
+    height: 200px;
+    
+    width: 100%;
+
+  }
+  
