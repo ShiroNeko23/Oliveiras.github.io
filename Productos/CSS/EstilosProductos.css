@@ -1,0 +1,42 @@
+.well {
+    background: none;
+    height: 60px;
+}
+
+.table-scroll tbody {
+    position: absolute;
+    overflow-y: scroll;
+    height: 200px;
+    width: 66.6%;
+}
+
+.table-scroll tr {
+    width: 100%;
+    table-layout: fixed;
+    display: inline-table;
+}
+
+.table-scroll thead > tr > th {
+    border: none;
+}
+#myInput {
+    background-image: url('shearch.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+  .vartb{
+    position: absolute;
+    width: 70%;
+    height: 500px;
+    left: 40%;
+    top: 120px;
+  }
+  .frm2{
+    position: relative;
+    top: 75px;
+  }
